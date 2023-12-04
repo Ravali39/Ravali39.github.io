@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,40 +8,37 @@
         body {
             margin: 0;
             padding: 0;
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
+            font-family: 'Arial', sans-serif;
         }
 
         header {
             background-color: #333;
             color: #fff;
             text-align: center;
-            padding: 1em 0;
+            padding: 10px;
         }
 
         nav {
             background-color: #444;
-            padding: 0.5em;
+            padding: 10px;
             text-align: center;
         }
 
         nav a {
             color: #fff;
             text-decoration: none;
-            padding: 0.5em 1em;
-            margin: 0 0.5em;
+            margin: 0 15px;
         }
 
         section {
-            padding: 2em;
+            padding: 20px;
         }
 
         footer {
             background-color: #333;
             color: #fff;
             text-align: center;
-            padding: 1em 0;
+            padding: 10px;
             position: fixed;
             bottom: 0;
             width: 100%;
@@ -50,9 +46,9 @@
 
         .video-container {
             position: relative;
-            padding-bottom: 56.25%;
+            width: 100%;
             height: 0;
-            overflow: hidden;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
         }
 
         .video-container iframe {
@@ -64,10 +60,9 @@
         }
     </style>
 </head>
-
 <body>
     <header>
-        <h1>H&M Group Promotion</h1>
+        <h1>H&M Group</h1>
     </header>
 
     <nav>
@@ -78,33 +73,18 @@
     </nav>
 
     <section id="home">
-        <h2>Welcome to H&M Group</h2>
-        <p>This is a simple website promoting the H&M Group. Explore our products and learn more about us.</p>
+        <h2>Welcome to H&M Group Promotion</h2>
+        <p>This website promotes the latest offerings from H&M Group.</p>
 
         <div class="video-container">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/il9XO9hWbrg" frameborder="0"
-                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/il9XO9hWbrg" frameborder="0" allowfullscreen></iframe>
         </div>
     </section>
 
-    <section id="about">
-        <h2>About Us</h2>
-        <p>Learn about the history and values of H&M Group.</p>
-    </section>
-
-    <section id="products">
-        <h2>Our Products</h2>
-        <p>Discover our latest fashion and lifestyle products.</p>
-    </section>
-
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Reach out to us for any inquiries or feedback.</p>
-    </section>
+    <!-- Add more sections for about, products, and contact -->
 
     <footer>
-        &copy; 2023 H&M Group. All rights reserved.
+        <p>&copy; 2023 H&M Group. All rights reserved.</p>
     </footer>
 </body>
-
 </html>
